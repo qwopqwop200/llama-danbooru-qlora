@@ -17,3 +17,5 @@ pip install git+https://github.com/huggingface/accelerate
 python -m torch.distributed.launch --nproc_per_node 8 train.py
 ```
 This was trained for 96 hours(1 epoch) with 8 RTX 3090s.
+## model
+https://huggingface.co/qwopqwop/danbooru-llama-qlora
