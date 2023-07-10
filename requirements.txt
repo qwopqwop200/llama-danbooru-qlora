@@ -1,0 +1,10 @@
+transformers
+bitsandbytes
+git+https://github.com/huggingface/peft
+datasets
+scipy
+sentencepiece
+git+https://github.com/huggingface/accelerate
+notebook
+jupyter_http_over_ws
+wandb
