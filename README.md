@@ -4,13 +4,7 @@
 conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 # Or, if you're having trouble with conda, use pip with python3.9:
 # pip3 install torch torchvision torchaudio
-pip install transformers
-pip install bitsandbytes
-pip install git+https://github.com/huggingface/peft
-pip install datasets
-pip install scipy
-pip install sentencepiece
-pip install git+https://github.com/huggingface/accelerate
+pip install -r requirements.txt
 ```
 ## train
 ```
